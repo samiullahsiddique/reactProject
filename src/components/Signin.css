@@ -1,0 +1,34 @@
+.signin {
+    background-color:  #c4bebe83;
+    padding: 100px;
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: center;
+    
+    }
+    
+    .signin h2 {
+    margin-bottom: 20px;
+    }
+    
+    .signin form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
+    .signin input[type="email"],
+    .signin input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    
+    .signin button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    }

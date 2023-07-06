@@ -1,0 +1,379 @@
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+
+}
+
+.logo {
+  margin-left: 25px;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+
+
+
+.links {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+
+}
+
+.links a {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+  
+}
+
+
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+
+
+
+
+.auth-buttons button {
+  padding: 5px 10px;
+  background-color: yellow;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  /* text-decoration: none !important; */
+/* } */
+
+/* 
+.hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+
+  margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+/* 
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+
+  }
+
+  .auth-buttons {
+    display: flex;
+    gap: 5px;
+  }
+
+  .auth-buttons button {
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .navbar.open .linls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .navbar.open .hamburger-menu span {
+    background-color: #fff;
+  }
+
+
+}  */
+
+
+.navbar {
+
+  display: flex;
+ 
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background-color: black;
+
+  padding: 10px;
+
+}
+
+
+.logo {
+
+  margin-left: 25px;
+
+}
+
+
+.logo img {
+
+  height: 80px;
+
+  width: 80px;
+
+}
+
+
+.links {
+
+  display: flex;
+
+  gap: 20px;
+
+  font-size: 20px;
+
+}
+
+
+.links a {
+
+  text-decoration: none;
+
+  color: yellow;
+
+  font-weight: bold;
+
+}
+
+
+.auth-buttons {
+
+  display: flex;
+
+  gap: 10px;
+
+}
+
+
+.auth-buttons button {
+
+  padding: 5px 10px;
+
+  background-color: yellow;
+
+  color: black;
+
+  font-size: 17px;
+
+  font-weight: bold;
+
+  border: none;
+
+  border-radius: 3px;
+
+  text-decoration: none !important;
+
+}
+
+
+.hamburger-menu {
+
+  display: none;
+
+  flex-direction: column;
+
+  cursor: pointer;
+
+}
+
+
+.hamburger-menu span {
+
+  display: block;
+
+
+  width: 25px;
+
+  height: 3px;
+
+  background-color: #fff;
+
+  margin-bottom: 5px;
+
+}
+
+
+@media screen and (max-width: 965px) {
+
+  /* .navbar{
+    flex-direction: column;
+  } */
+  .links {
+
+    display: none;
+
+  }
+
+
+  .auth-buttons {
+
+    display: flex;
+
+    gap: 5px;
+
+  }
+
+
+  .auth-buttons button {
+
+    padding: 3px 8px;
+
+    font-size: 12px;
+
+  }
+
+
+  .hamburger-menu {
+
+    display: flex;
+    
+
+  }
+
+
+  .navbar.open .links {
+
+    display: flex;
+
+
+
+    flex-direction: column;
+
+    gap: 10px;
+
+  }
+
+
+  .navbar.open .hamburger-menu span {
+
+    background-color: #fff;
+
+  }
+}
+
+  @media screen and (max-width: 422px) {
+
+    .navbar{
+      flex-direction: column;
+      gap: 10px;
+    }
+
+}
+
+/* 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  }
+  
+  .logo {
+  margin-left: 25px;
+  }
+  
+  .logo img {
+  height: 80px;
+  width: 80px;
+  }
+  
+  .menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  }
+  
+  .menu.open {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  .links {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  }
+  
+  .links a {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+  }
+  
+  .auth-buttons {
+  display: flex;
+  gap: 10px;
+  }
+  
+  .auth-buttons button {
+  padding: 5px 10px;
+  background-color: yellow;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none !important;
+  }
+  
+  .hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  }
+  
+  .hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+  .links {
+  display: none;
+  }
+  
+  .auth-buttons {
+  display: none;
+  }
+  
+  .hamburger-menu {
+  display: flex;
+  }
+  
+  .navbar.open .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  }
+  
+  .navbar.open .hamburger-menu span {
+  background-color: #fff;
+  }
+  }
+   */

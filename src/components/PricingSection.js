@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './PricingSection.css';
 
 const PricingSection = () => {
@@ -14,7 +14,7 @@ const PricingSection = () => {
             <li>Group fitness classes</li>
             <li>No commitment</li>
           </ul>
-          <button>Sign Up</button>
+          <button><Link to="/signup" style={{textDecoration: 'none',color:'black'}}>Sign Up</Link></button>
         </div>
         <div className="pricing-plan">
           <h3>Standard</h3>
@@ -24,7 +24,7 @@ const PricingSection = () => {
             <li>Group fitness classes</li>
             <li>Personal training sessions</li>
           </ul>
-          <button>Sign Up</button>
+          <button><Link to="/signup" style={{textDecoration: 'none',color:'black'}}>Sign Up</Link></button>
         </div>
         <div className="pricing-plan">
           <h3>Premium</h3>
@@ -36,7 +36,7 @@ const PricingSection = () => {
             <li>Access to swimming pool</li>
             <li>24/7 gym access</li>
           </ul>
-          <button>Sign Up</button>
+          <button><Link to="/signup" style={{textDecoration: 'none',color:'black'}}>Sign Up</Link></button>
         </div>
       </div>
     </section>

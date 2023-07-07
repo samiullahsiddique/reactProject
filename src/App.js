@@ -10,6 +10,7 @@ import PricingSection from './components/PricingSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import SignIn from './components/Signin';
+import SignUp from './components/SignUp';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/testimonialssection" component={TestimonialsSection} />
           <Route path="/classessection" component={ClassesSection} />
           <Route path="/pricingsection" component={PricingSection} />
+          <Route path="/signup" component={SignUp} />
           <Route path="/signin" component={SignIn} />
           </Switch>
       </Router>

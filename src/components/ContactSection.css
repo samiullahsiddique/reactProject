@@ -1,5 +1,5 @@
 .contact {
-    
+
     padding: 40px;
     text-align: center;
 
@@ -33,7 +33,7 @@
   }
   
   .contact-form input, textarea {
-    width: 50%;
+    width: 55%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;

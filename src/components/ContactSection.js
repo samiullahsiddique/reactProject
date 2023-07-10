@@ -13,7 +13,7 @@ const ContactSection = () => {
         </div>
         <div className="contact-details">
           <h3>Email</h3>
-          <p>https://goldsgym.in</p>
+          <p>Wecare@goldsgym.in</p>
         </div>
         <div className="contact-details">
           <h3>Phone</h3>

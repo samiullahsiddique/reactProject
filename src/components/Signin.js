@@ -14,7 +14,7 @@
 //     );
 // };
 // export default SignIn;
-
+import './Signin.css';
 import React, { useState } from 'react';
 
 const SigninPage = () => {
@@ -32,7 +32,7 @@ const SigninPage = () => {
         if (signupData && email === signupData.email && password === signupData.password) {
             // Successful sign-in
             // Redirect to desired page or perform necessary actions
-            console.log('Sign-in successful!');
+            window.alert('Sign-in successful!');
         } else {
             // Invalid credentials
             setErrorMessage('Invalid email or password');
@@ -44,7 +44,7 @@ const SigninPage = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container" id='con'>
             <h1>Sign In</h1>
             <form onSubmit={handleSignin}>
                 <div className="form-group">

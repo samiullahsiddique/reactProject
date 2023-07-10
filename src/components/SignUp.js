@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SignUp.css';
 
 const SignupPage = () => {
     const [name, setName] = useState('');
@@ -73,6 +74,7 @@ const SignupPage = () => {
                         required
                     />
                 </div>
+                
                 <button type="submit" className="btn btn-primary">Sign Up</button>
             </form>
         </div>

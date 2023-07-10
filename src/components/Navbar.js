@@ -49,12 +49,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link to="/HeroSection" className="nav-link" onClick={closeMenu}>Home</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/AboutSection" className="nav-link" onClick={closeMenu}>About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/ContactSection" className="nav-link" onClick={closeMenu}>Contact</Link>
-                        </li>
+                        
                         <li className="nav-item">
                             <Link to="/TrainerSection" className="nav-link" onClick={closeMenu}>Trainers</Link>
                         </li>
@@ -65,7 +60,13 @@ const Navbar = () => {
                             <Link to="/ClassesSection" className="nav-link" onClick={closeMenu}>Classes</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/PricingSection" className="nav-link" onClick={closeMenu}>Pricing</Link>
+                            <Link to="/PricingSection" className="nav-link" onClick={closeMenu}>Programs</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/AboutSection" className="nav-link" onClick={closeMenu}>About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/ContactSection" className="nav-link" onClick={closeMenu}>Contact</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/signin" className="btn btn-warning" onClick={closeMenu}>Sign In </Link>
